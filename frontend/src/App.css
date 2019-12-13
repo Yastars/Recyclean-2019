@@ -1,0 +1,524 @@
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: inherit;
+}
+
+a:visited{
+  color: inherit;
+}
+
+
+
+
+
+
+/*
+hero
+*/
+
+
+/*
+Middle
+*/
+
+
+/* FORM TYPOGRAPHY*/
+
+.input,input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #41563f;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+/*    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);*/
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+
+}
+
+.input:hover,input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+  background-color: #41563f;
+}
+
+.input:active, input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.input, input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+
+}
+
+input:focus,input[type=text]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #41563f;
+}
+
+input:placeholder, input[type=text]:placeholder {
+  color: #cccccc;
+}
+
+
+
+
+#formContent {
+  margin: 40vh;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}
+/*
+Footer
+*/
+footer{
+  /*background-color: #41563f;*/
+  line-height: 120px;
+}
+
+
+
+
+/*
+=========================================================================================================
+=========================================================================================================
+SCAN CODE QR PART
+=========================================================================================================
+=========================================================================================================
+*/
+.ScanReader{
+  margin: 10vh;
+  float: left;
+}
+
+.Credits{
+  Color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  font-weight: 900;
+}
+
+#root{
+  margin-top: 10vh;
+}
+
+.container, .myOffers{
+  margin-top: 160px;
+}
+
+
+
+
+/*
+=========================================================================================================
+=========================================================================================================
+HEADER
+=========================================================================================================
+=========================================================================================================
+*/
+
+header img{
+  margin-left: 10vh;
+  margin-right: 4vh;
+  height: 8vh;
+  min-height: 60px;
+}
+
+header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  border-bottom: black 4px solid;
+
+  background: #fff ;
+  top:0px;
+  left:0px;
+  right:0px;
+  height: 10vh;
+  min-height: 80px;
+  z-index: 99;
+}
+
+header *{
+  display: inline;
+}
+
+header li{
+  margin: 3vh;
+  color: black;
+  
+}
+
+
+
+header li a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: calc(16px + 0.2vh);
+}
+
+header li a:hover{
+  text-decoration: none;
+  color: rgb(52, 102, 60);
+}
+
+header .right{
+  margin-left: auto;
+  margin-right: 10px;
+  color: black;
+  margin-top: 15px;
+  float:right;
+  
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: calc(2.5vh + 10px);
+}
+
+
+/*
+=========================================================================================================
+=========================================================================================================
+                                        HOME PAGE
+=========================================================================================================
+=========================================================================================================
+*/
+
+.Home .Cover img{
+  height: 600px;
+  width: 100%;
+  position: relative;
+  opacity: 1;
+}
+
+.Home .Cover{
+  position:relative;
+  z-index: 1;
+  display:block;
+  height: 80vh;
+  min-height: 600px;
+}
+
+.Home .Cover .Text {
+  position: relative;
+  top: 55%;
+  text-align: center;
+}
+
+.Home .Cover .Text h1{
+  display: inline-block;
+  text-align: center;
+  top:50%;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 2vh 24vh;
+  font-size: 5vh;
+  border-radius: 20px;
+}
+
+.products-scanned{
+  font-size: calc(9px + 2.5vh);
+}
+
+/*
+under cover #start
+*/
+.under-cover{
+  text-align: center;
+  width: 100%;
+  padding: 10vh;
+  position: relative;
+  background: seagreen;
+}
+
+.under-cover *{
+  
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  font-family: cursive;
+  color: white;
+  font-size: 3vh;
+  opacity: 0.90;
+  vertical-align: middle;
+
+}
+
+
+
+/*
+under cover #end
+*/
+
+
+
+
+.Home .service{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 10vh;
+}
+
+
+
+.Home .service .block{
+  height: 200px;
+  padding: 0 5vh;
+  margin: 0 10vh;
+  color: black;
+  flex: 1;
+}
+
+.Home .service .block:hover{
+  box-shadow: 17px 17px 9px -12px rgba(0,0,0,0.72);
+  border: 2px black solid;
+}
+
+
+.global-class-name{
+  color: black;
+  size: 6em;
+  opacity:0.946;
+  
+}
+
+
+
+.contact-section{
+  padding-top: 70px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.contact-section .contact {
+  display: flex;
+  width: 100%;
+}
+
+.contact-section .contact .block{
+  width: 20%;
+  flex:1;
+  box-shadow: 17px 17px 9px -12px rgba(0,0,0,0.72);
+  text-align: center;
+  background: white;  
+  max-height: 400px;
+  margin: 20px;
+
+
+}
+
+.contact-section .contact .block img{
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  text-align: center;
+  max-width: initial;
+}
+
+.contact-section .contact .block:last-child img{
+  object-position: 20% 00% ;
+}
+
+.contact-section .contact .block:first-child img{
+  object-position: 50% 40%;
+}
+
+.contact-section .contact .block .name{
+  margin: 20px 20px;
+  text-align: left;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+Yasoo
+*/
+
+html {
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.myOffers .container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myOffers .container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myOffers a{
+  text-decoration: none;
+}
+
+.myOffers a:hover{
+  color: inherit;
+}
+
+.myOffers a:visited{
+  color: inherit;
+}
+
+
+
+/*
+Middle
+*/
+
+.container:after,
+.blocks:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myOffers .blocks{
+  padding-top: 100px;
+  margin-bottom: 70px;
+}
+
+.myOffers .container {
+  width: 88%;
+}
+
+.myOffers .blocks .block {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+  margin-bottom: 20px;
+  padding: 15px;
+  min-width: 340px;
+  min-height: 360px;
+
+}
+
+.myOffers .title{
+  background: white;
+  padding: 20px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  font-weight: 800;
+  text-align: center;
+  display: block;
+}
+
+.myOffers .image{
+text-align: center;
+border: 1px solid gray;
+padding: 10px;
+}
+
+.getOffer{
+text-align: center;
+margin: 0;
+}
+
+.price{
+color: goldenrod;
+}
+
+
+

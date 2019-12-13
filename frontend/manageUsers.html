@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+    
+  <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>   
+
+<header class="header">
+  <div class="logo">
+      <div class="logo"><img src="assets/img/Logo.png" height="180" width="180" alt=""></div>
+  </div>
+  <div class="container">
+    <nav>
+      <ul class="navbar">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">Offer</a></li>
+        <li class="nav-item"><a href="#">About Us</a></li>
+        <li class="nav-item"><a href="#">Services</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+        <li class="nav-item"><a href="#">Login</a></li>
+        <li class="nav-item"><a href="register.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+
+<style type="text/css">
+    body {
+        color: #566787;
+		background: white;
+		font-family: 'Varela Round', sans-serif;
+		font-size: 13px;
+	}
+	.table-wrapper {
+        background: #fff;
+        padding: 20px 25px;
+        margin: 30px 0;
+		border-radius: 3px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+	.table-title {
+		padding-bottom: 15px;
+		background: #299be4;
+		color: #fff;
+		padding: 16px 30px;
+		margin: -20px -25px 10px;
+		border-radius: 3px 3px 0 0;
+    }
+    .table-title h2 {
+		margin: 5px 0 0;
+		font-size: 24px;
+	}
+
+    table.table .avatar {
+		border-radius: 50%;
+		vertical-align: middle;
+		margin-right: 10px;
+        height:48px;
+        width:48px;
+	}
+	
+	table.table td a:hover {
+		color: #2196F3;
+	}
+	table.table td a.settings {
+        color: #2196F3;
+    }
+    table.table td a.delete {
+        color: #F44336;
+    }
+   
+	.status {
+		font-size: 30px;
+		margin: 2px 2px 0 0;
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 10px;
+	}
+    .text-success {
+        color: #10c469;
+    }
+    .text-info {
+        color: #62c9e8;
+    }
+    .text-warning {
+        color: #FFC107;
+    }
+    .text-danger {
+        color: #ff5b5b;
+    }
+    
+</style>
+
+
+
+
+
+<main>
+  <div class="container">
+    <!-- Manage Users Table -->
+
+
+    <table class="table ">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>						
+                <th>Date Created</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><a href="#"><img src="assets/img/Logo.png" class="avatar" alt="Avatar"> Michael Holz</a></td>
+                <td>04/10/2013</td>                        
+                <td>Admin</td>
+                <td><span class="status text-success">&bull;</span> Active</td>
+                <td>
+                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#"><img src="assets/img/Yasstars.png" class="avatar" alt="Avatar"> Paula Wilson</a></td>
+                <td>05/08/2014</td>                       
+                <td>Publisher</td>
+                <td><span class="status text-success">&bull;</span> Active</td>
+                <td>
+                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#"><img src="assets/img/1.jpg" class="avatar" alt="Avatar"> Antonio Moreno</a></td>
+                <td>11/05/2015</td>
+                <td>Publisher</td>
+                <td><span class="status text-danger">&bull;</span> Suspended</td>                        
+                <td>
+                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                </td>                        
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><a href="#"><img src="assets/img/Yasstars.png" class="avatar" alt="Avatar"> Mary Saveley</a></td>
+                <td>06/09/2016</td>
+                <td>Reviewer</td>
+                <td><span class="status text-success">&bull;</span> Active</td>
+                <td>
+                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><a href="#"><img src="assets/img/1.jpg" class="avatar" alt="Avatar"> Martin Sommer</a></td>
+                <td>12/08/2017</td>                        
+                <td>Moderator</td>
+                <td><span class="status text-warning">&bull;</span> Inactive</td>
+                <td>
+                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+   </div>
+
+</main>
+
+<footer>
+  <div class="container">
+      <ul class="soc">
+          <li><a class="soc-twitter" href="#"></a></li>
+          <li><a class="soc-facebook" href="#"></a></li>
+          <li><a class="soc-googleplus" href="#"></a></li>
+          <li><a class="soc-pinterest" href="#"></a></li>
+          <li><a class="soc-linkedin" href="#"></a></li>
+          <li><a class="soc-rss soc-icon-last" href="#"></a></li>
+      </ul>
+    
+  </div>
+</footer>
