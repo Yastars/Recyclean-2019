@@ -40,7 +40,7 @@ Technologies used:
 ![PRODUCTS PAGE](/Contact.png)
 
 
-Don't hesistate to contact me for any information.
+Don't hesistate to contact me for anything.
 
 Yassine Qassar
 Software Architect 
