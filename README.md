@@ -37,7 +37,7 @@ Technologies used:
 ![PRODUCTS PAGE](/Products.jpg)
   
 ##<h2>Contact:
-![PRODUCTS PAGE](/Products.jpg)
+![PRODUCTS PAGE](/Contact.png)
 
 
 Don't hesistate to contact me for any information.
